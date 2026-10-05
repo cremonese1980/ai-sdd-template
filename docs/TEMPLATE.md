@@ -30,11 +30,12 @@ In order:
 1. Copy the repository (GitHub "Use this template", or a plain copy without `.git/`).
 2. Fill `docs/PROJECT-MANIFESTO.md`.
 3. Fill `README.md`: project name, the purpose sentence of `docs/PROJECT-MANIFESTO.md` §1, how to build.
-4. Fill the Cast tables in `docs/INDEX.md`.
-5. Write the first entry in `docs/operational/calendar.md`.
-6. Write the first document in the doc-standard format (`docs/operational/doc-standard.md`).
-7. `chmod +x .claude/hooks/validate-bash.sh`
-8. Open Claude Code at the repository root and run `/standup`.
+4. Choose the project license: keep MIT and update the copyright line, or replace LICENSE.
+5. Fill the Cast tables in `docs/INDEX.md`.
+6. Write the first entry in `docs/operational/calendar.md`.
+7. Write the first document in the doc-standard format (`docs/operational/doc-standard.md`).
+8. `chmod +x .claude/hooks/validate-bash.sh`
+9. Open Claude Code at the repository root and run `/standup`.
 
 ## Upgrade a project to a new template version
 

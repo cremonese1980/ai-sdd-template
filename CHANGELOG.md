@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Every change to a TEMPLATE-owned file bumps TEMPLATE_VERSION and adds an entry here.
 
+## [0.1.1] - 2026-10-05
+
+### Added
+- MIT LICENSE.
+
+### Changed
+- docs/TEMPLATE.md: new instantiation step 4, choose the project license.
+
 ## [0.1.0] - 2026-10-04
 
 ### Added

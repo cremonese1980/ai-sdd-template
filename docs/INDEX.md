@@ -17,6 +17,7 @@ Map of the repository: what every file is, who owns it, which file owns which fa
 | File | Owner | Purpose |
 |---|---|---|
 | [`README.md`](../README.md) | PROJECT | Project name, one-line purpose, how to build, link to this index |
+| [`LICENSE`](../LICENSE) | PROJECT | License of this project; each project chooses its own |
 | [`CLAUDE.md`](../CLAUDE.md) | TEMPLATE | Claude Code only settings; imports AGENTS.md and the Agent Manifesto |
 | [`CLAUDE.local.md.example`](../CLAUDE.local.md.example) | TEMPLATE | Example of personal, gitignored Claude Code overrides |
 | [`AGENTS.md`](../AGENTS.md) | TEMPLATE | Shared rules for every coding agent: read-first list, roles, non-negotiables, rites |
