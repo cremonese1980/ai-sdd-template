@@ -27,15 +27,16 @@ Every file has an owner, shown in the `Owner` field of its header and in the fil
 
 In order:
 
-1. Copy the repository (GitHub "Use this template", or a plain copy without `.git/`).
-2. Fill `docs/PROJECT-MANIFESTO.md`.
-3. Fill `README.md`: project name, the purpose sentence of `docs/PROJECT-MANIFESTO.md` §1, how to build.
-4. Choose the project license: keep MIT and update the copyright line, or replace LICENSE.
-5. Fill the Cast tables in `docs/INDEX.md`.
-6. Write the first entry in `docs/operational/calendar.md`.
-7. Write the first document in the doc-standard format (`docs/operational/doc-standard.md`).
-8. `chmod +x .claude/hooks/validate-bash.sh`
-9. Open Claude Code at the repository root and run `/standup`.
+1. Apply the OPEN lessons from the previous project's `docs/LESSONS-LEARNED.md` to this template, bump `TEMPLATE_VERSION`, add the CHANGELOG entry, mark the applied lessons APPLIED in vX.Y.Z in the previous project's ledger, then copy.
+2. Copy the repository (GitHub "Use this template", or a plain copy without `.git/`).
+3. Fill `docs/PROJECT-MANIFESTO.md`.
+4. Fill `README.md`: project name, the purpose sentence of `docs/PROJECT-MANIFESTO.md` §1, how to build.
+5. Choose the project license: keep MIT and update the copyright line, or replace LICENSE.
+6. Fill the Cast tables in `docs/INDEX.md`.
+7. Write the first entry in `docs/operational/calendar.md`.
+8. Write the first document in the doc-standard format (`docs/operational/doc-standard.md`).
+9. `chmod +x .claude/hooks/validate-bash.sh`
+10. Open Claude Code at the repository root and run `/standup`.
 
 ## Upgrade a project to a new template version
 

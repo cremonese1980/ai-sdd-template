@@ -43,6 +43,7 @@ Map of the repository: what every file is, who owns it, which file owns which fa
 | [`docs/BACKLOG.md`](BACKLOG.md) | PROJECT | Tasks, one row each |
 | [`docs/TODO.md`](TODO.md) | PROJECT | Deferred findings, each with owner and reason |
 | [`docs/BRAINSTORM-LOG.md`](BRAINSTORM-LOG.md) | PROJECT | Ledger of brainstorm closures: product decisions |
+| [`docs/LESSONS-LEARNED.md`](LESSONS-LEARNED.md) | PROJECT | Ledger of template improvements discovered while working on this project, OPEN or APPLIED |
 | [`docs/adr/README.md`](adr/README.md) | TEMPLATE | ADR convention: MADR, NNNN numbering, statuses |
 | [`docs/adr/0000-template.md`](adr/0000-template.md) | TEMPLATE | ADR template |
 | [`docs/specs/README.md`](specs/README.md) | TEMPLATE | Spec convention: one folder per chunk |
@@ -84,6 +85,7 @@ A fact is written only in its owning file; other files link to it.
 | Purpose, scope, constraints, deviations from template | [PROJECT-MANIFESTO.md](PROJECT-MANIFESTO.md) |
 | Names of roles and product agents | this file, § 3 Cast |
 | Template version | [`TEMPLATE_VERSION`](../TEMPLATE_VERSION) |
+| Template improvements | [LESSONS-LEARNED.md](LESSONS-LEARNED.md) |
 
 ## 3. Cast
 

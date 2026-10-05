@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Every change to a TEMPLATE-owned file bumps TEMPLATE_VERSION and adds an entry here.
 
+## [0.1.2] - 2026-10-05
+
+### Added
+- docs/LESSONS-LEARNED.md: ledger of template improvements discovered while working on a project, shipped with an empty table.
+
+### Changed
+- docs/TEMPLATE.md: new instantiation step 1, apply the OPEN lessons of the previous project to the template before copying; the following steps renumbered.
+
 ## [0.1.1] - 2026-10-05
 
 ### Added
