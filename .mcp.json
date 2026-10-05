@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postgres-readonly": {
+      "command": "REPLACE_WITH_VERIFIED_POSTGRES_MCP_SERVER",
+      "args": [],
+      "env": {
+        "DATABASE_URL": "${DATABASE_URL_READONLY}"
+      }
+    }
+  }
+}

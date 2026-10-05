@@ -1,0 +1,5 @@
+# CLAUDE.local.md — personal overrides (example). Copy to CLAUDE.local.md at the repository root.
+Purpose: instructions that apply only to you on this machine, loaded by Claude Code next to CLAUDE.md.
+CLAUDE.local.md is gitignored: it is never committed and never shared with the team.
+Personal overrides only (local paths, editor, preferred verbosity); never rules, decisions or project facts.
+It must not relax AGENTS.md or docs/AGENT-MANIFESTO.md; a project deviation goes in docs/PROJECT-MANIFESTO.md.
