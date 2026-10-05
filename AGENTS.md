@@ -15,7 +15,7 @@ Codex and other tools read this file directly, so it contains no import syntax.
 ## Roles (one per head, never overlapping)
 | Role | Does | Never does |
 |---|---|---|
-| Human | decides, ratifies, runs git / Maven / deploy, queries the box | writes specs, implements |
+| Human | decides, ratifies, runs git, builds and deploys, queries the box | writes specs, implements |
 | Architect | keeps the thread, writes specs and prompts, judges reviews and deviations, updates ledger and calendar | implements, commits, runs the rites |
 | Implementer | implements from the prompt, runs the rites, writes the report, declares every deviation | commits, decides alone |
 | Deployer | guides deploy step by step from a written handoff, writes the report | touches code |
@@ -34,5 +34,5 @@ Project-specific names for these roles are in docs/INDEX.md ("Cast").
 - Recurring queries live in docs/operational/query.md and are cited by code, never pasted into chat.
 
 ## Rites
-- Build: `mvn clean install`, then `mvn clean verify` with Docker running. Green before any report.
+- Build: the build, then the integration tests with real dependencies, with the commands in docs/PROJECT-MANIFESTO.md → Rites. Green before any report.
 - Report: appended to the spec — done, not done with reason, deviations, test counts, proposed commit message.

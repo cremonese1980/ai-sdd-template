@@ -27,7 +27,9 @@ Map of the repository: what every file is, who owns it, which file owns which fa
 | [`CHANGELOG.md`](../CHANGELOG.md) | TEMPLATE | Changes to TEMPLATE-owned files, one entry per template version |
 | [`.claude/settings.json`](../.claude/settings.json) | TEMPLATE | Wires the PreToolUse Bash guard hook |
 | [`.claude/hooks/validate-bash.sh`](../.claude/hooks/validate-bash.sh) | TEMPLATE | Blocks, in command position, commit, push, merge, destructive git and rm, deploys, remote shells; destructive SQL anywhere. Guards against accidents, not a security boundary |
-| [`.claude/rules/code-style.md`](../.claude/rules/code-style.md) | TEMPLATE | Code rules for Java and Maven files, loaded when they are touched |
+| [`.claude/hooks/test-validate-bash.sh`](../.claude/hooks/test-validate-bash.sh) | TEMPLATE | Regression test for the Bash guard hook: runs the case table, exits non-zero on any failure |
+| [`.claude/rules/code-style-java.md`](../.claude/rules/code-style-java.md) | TEMPLATE | Code rules for Java and Maven files, loaded when they are touched |
+| [`.claude/rules/code-style-python.md`](../.claude/rules/code-style-python.md) | TEMPLATE | Code rules for Python files and pyproject.toml, loaded when they are touched |
 | [`.claude/rules/docs.md`](../.claude/rules/docs.md) | TEMPLATE | Document rules for docs/, loaded when they are touched |
 | [`.claude/commands/parlamento.md`](../.claude/commands/parlamento.md) | TEMPLATE | /parlamento: from an idea to a sealed spec |
 | [`.claude/commands/standup.md`](../.claude/commands/standup.md) | TEMPLATE | /standup: the greeting ritual |

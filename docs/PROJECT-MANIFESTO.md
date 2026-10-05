@@ -46,6 +46,16 @@ The conditions under which this project stops or pivots, decided now.
 | Template file and rule | Deviation | Why | Date |
 |---|---|---|---|
 
+## 12. Rites
+The commands behind AGENTS.md → Rites, as run in this project.
+
+| Rite | Command |
+|---|---|
+| Build | |
+| Full tests with real dependencies | |
+| Formatter | |
+| Run | |
+
 ## Revision history
 | Version | Date | Change |
 |---|---|---|

@@ -10,7 +10,7 @@
 
 # TEMPLATE — ai-sdd-template
 
-A docs-first kit for projects built with governed AI agents. Before any code exists, a project made from this template already has its rules (manifestos, agent instructions, a document standard), its process (the chunk cycle: parliament, sealed spec, fixed prompt, adversarial review, ratification with evidence), and the mechanical guards that keep coding agents inside that process. The kit contains documents and agent configuration only, no code; its engineering rules assume Java 21, Spring Boot 3 and Maven (see `.claude/rules/code-style.md`).
+A docs-first kit for projects built with governed AI agents. Before any code exists, a project made from this template already has its rules (manifestos, agent instructions, a document standard), its process (the chunk cycle: parliament, sealed spec, fixed prompt, adversarial review, ratification with evidence), and the mechanical guards that keep coding agents inside that process. The kit contains documents and agent configuration only, no code; its engineering rules are language-neutral. Each project names its build, test, formatter and run commands in `docs/PROJECT-MANIFESTO.md` → *Rites*; code style is per language in `.claude/rules/` (`code-style-java.md`, `code-style-python.md`).
 
 It is used for personal projects first (Giorgio, Vilma), then at work. Everything in the kit is in English, except verbatim quotes and greeting triggers, which keep their original language; a project may allow another language only for files it names in `docs/PROJECT-MANIFESTO.md` → *Language policy*.
 

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Every change to a TEMPLATE-owned file bumps TEMPLATE_VERSION and adds an entry here.
 
+## [0.2.0] - 2026-10-05
+
+### Added
+- .claude/rules/code-style-python.md: code rules for Python files and pyproject.toml, same principles as the Java rules; tools are named as examples, never as requirements.
+- .claude/hooks/test-validate-bash.sh: regression test for the Bash guard hook, the full case table, non-zero exit on any failure.
+
+### Changed
+- Language-neutral core: ENGINEERING-MANIFESTO 5.1 and 5.3, PROCESS step 4 and Definition of Done, AGENTS.md Rites, the TEMPLATE.md introduction, the AGENTS.md roles row, the spec template report line. AGENTS.md Rites points to PROJECT-MANIFESTO → Rites.
+- docs/PROJECT-MANIFESTO.md skeleton: new section 12 Rites, empty: build, full tests with real dependencies, formatter, run. PROJECT-owned, so existing projects add it by hand.
+- .claude/rules/code-style.md renamed to code-style-java.md; CLAUDE.md and docs/INDEX.md updated.
+- .claude/hooks/validate-bash.sh: also blocks ./mvnw and mvnw with deploy or release goals, twine upload, uv publish, poetry publish.
+
 ## [0.1.2] - 2026-10-05
 
 ### Added

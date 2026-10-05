@@ -19,7 +19,7 @@ Everything shared with other coding agents lives in AGENTS.md. This file adds on
 
 ## Rules
 Path-scoped rules live in .claude/rules/ and load when matching files are touched:
-code-style.md for Java and Maven, docs.md for documentation.
+code-style-java.md for Java and Maven, code-style-python.md for Python, docs.md for documentation.
 
 ## Enforcement
 .claude/hooks/validate-bash.sh blocks commit, push, merge, rebase, destructive git, `rm -rf`, deploys, remote shells and destructive SQL.

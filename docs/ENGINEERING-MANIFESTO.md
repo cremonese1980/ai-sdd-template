@@ -49,9 +49,9 @@ Common to every project built from this template. A project may tighten these ru
 4.5 Migrations are additive. Applied migrations are never edited.
 
 ## 5. Quality
-5.1 `mvn clean verify` with real dependencies (Testcontainers) is green before any report.
+5.1 Build and integration tests with real dependencies green before any report.
 5.2 Tests assert behaviour and invariants, not implementation details.
-5.3 Javadoc states contract, invariants and why. Boilerplate is forbidden.
+5.3 Doc comments state contract, invariants and why. Boilerplate is forbidden.
 5.4 A version marker is bumped whenever verdicts or persisted evidence change. Never silently.
 5.5 Observability is designed with the feature: what will tell us, at 3 a.m., that this is broken?
 
@@ -74,3 +74,4 @@ Common to every project built from this template. A project may tighten these ru
 | Version | Date | Change |
 |---|---|---|
 | 0.1.0 | 2026-10-04 | Initial version |
+| 0.2.0 | 2026-10-05 | 5.1 and 5.3 language-neutral |

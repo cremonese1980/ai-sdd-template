@@ -64,6 +64,6 @@ Decided now, before any data is read. New numbers are ESTIMATE until ratified.
 - Done:
 - Not done, with reason:
 - Deviations to ratify:
-- Tests: <counts from mvn clean verify>
+- Tests: <counts from the full test command in PROJECT-MANIFESTO Rites>
 - Proposed commit message: <one line, ASCII, no quotes, parentheses or metacharacters>
 -->
