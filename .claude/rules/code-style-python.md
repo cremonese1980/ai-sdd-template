@@ -13,7 +13,7 @@ Every rule here is checkable in review. If a rule needs an exception, the except
 3. Names reveal intent. No abbreviations except domain terms already in the glossary.
 
 ## Architecture
-4. Hexagonal. The domain package imports no framework and does no IO: no web framework, no ORM, no HTTP or database client, no logging configuration (for example no FastAPI, Django, SQLAlchemy, httpx).
+4. Hexagonal. The domain package imports no framework and does no IO: no web framework, no ORM, no HTTP or database client, no logging configuration (for example no FastAPI, Django, SQLAlchemy, httpx). Enforced by an import checker in the build (for example import-linter), ENGINEERING-MANIFESTO 3.1.
 5. Ports are protocols or abstract base classes owned by the domain or application layer; adapters implement them outside. Dependencies point inward, always.
 6. Rules, policies, prompts and thresholds are data, versioned, never hard-coded in behaviour.
 7. Packages by feature, not by technical layer.
@@ -48,4 +48,6 @@ Every rule here is checkable in review. If a rule needs an exception, the except
 ## Build and formatting
 25. One formatter and one linter, enforced in the build (for example ruff). A formatting-only change is its own commit.
 26. No wildcard imports. No mutable module-level state. No `print` for logging.
-27. Tests run against real dependencies (for example Testcontainers), green before any report is written.
+27. Tests run against real dependencies (for example Testcontainers), green before any report is written. Third-party APIs sit behind ports with fakes in the green gate (ENGINEERING-MANIFESTO 5.1).
+28. The linter enforces a cyclomatic complexity ceiling per function (for example ruff rule C901; ceiling 10 ESTIMATE); a function over the ceiling is split, never exempted (ENGINEERING-MANIFESTO 5.8).
+29. Every test names the requirement it proves: the requirement id of the spec in its name or docstring. A test without one is deleted or its requirement written (ENGINEERING-MANIFESTO 5.9).

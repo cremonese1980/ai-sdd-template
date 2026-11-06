@@ -39,6 +39,7 @@ Map of the repository: what every file is, who owns it, which file owns which fa
 | [`docs/TEMPLATE.md`](TEMPLATE.md) | TEMPLATE | What the template is, ownership and deviation rule, how to instantiate and upgrade, what the Bash hook is and is not |
 | [`docs/ENGINEERING-MANIFESTO.md`](ENGINEERING-MANIFESTO.md) | TEMPLATE | Engineering rules common to every project |
 | [`docs/PROJECT-MANIFESTO.md`](PROJECT-MANIFESTO.md) | PROJECT | Purpose, scope, constraints, language policy and deviations of this project |
+| [`docs/GLOSSARY.md`](GLOSSARY.md) | PROJECT | Ubiquitous language: one row per domain term, with meaning and where it is used |
 | [`docs/AGENT-MANIFESTO.md`](AGENT-MANIFESTO.md) | TEMPLATE | Behavioural rules for agents; override everything else |
 | [`docs/PROCESS.md`](PROCESS.md) | TEMPLATE | The chunk cycle and the Definition of Done |
 | [`docs/ROADMAP.md`](ROADMAP.md) | PROJECT | Direction of the project, with a STATE block |
@@ -85,6 +86,7 @@ A fact is written only in its owning file; other files link to it.
 | Recurring queries | [operational/query.md](operational/query.md) |
 | Database schema | [operational/db-schema.md](operational/db-schema.md) |
 | Purpose, scope, constraints, deviations from template | [PROJECT-MANIFESTO.md](PROJECT-MANIFESTO.md) |
+| Domain terms | [GLOSSARY.md](GLOSSARY.md) |
 | Names of roles and product agents | this file, § 3 Cast |
 | Template version | [`TEMPLATE_VERSION`](../TEMPLATE_VERSION) |
 | Template improvements | [LESSONS-LEARNED.md](LESSONS-LEARNED.md) |

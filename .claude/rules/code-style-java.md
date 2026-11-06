@@ -13,7 +13,7 @@ Every rule here is checkable in review. If a rule needs an exception, the except
 3. Names reveal intent. No abbreviations except domain terms already in the glossary.
 
 ## Architecture
-4. Hexagonal. The domain module imports no framework: no Spring, no JPA, no Jackson, no logging framework.
+4. Hexagonal. The domain module imports no framework: no Spring, no JPA, no Jackson, no logging framework. Enforced by an import checker in the build (for example ArchUnit), ENGINEERING-MANIFESTO 3.1.
 5. Ports are interfaces owned by the domain or application layer; adapters implement them outside. Dependencies point inward, always.
 6. Rules, policies, prompts and thresholds are data, versioned, never hard-coded in behaviour.
 7. Packages by feature inside a module, not by technical layer.
@@ -48,3 +48,5 @@ Every rule here is checkable in review. If a rule needs an exception, the except
 24. One formatter, enforced in the build (Spotless). A formatting-only change is its own commit.
 25. No wildcard imports. No static mutable state. No `System.out`.
 26. `mvn clean verify` green with Testcontainers before any report is written.
+27. The build enforces a cyclomatic complexity ceiling per method (for example the Checkstyle CyclomaticComplexity check; ceiling 10 ESTIMATE); a method over the ceiling is split, never exempted (ENGINEERING-MANIFESTO 5.8).
+28. Every test names the requirement it proves: the requirement id of the spec in its name or Javadoc. A test without one is deleted or its requirement written (ENGINEERING-MANIFESTO 5.9).

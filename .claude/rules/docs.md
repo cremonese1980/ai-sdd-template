@@ -11,7 +11,7 @@ Applies to every file under docs/. The full standard is docs/operational/doc-sta
 3. An empty Parliamentary summary means the document is not implementable. Do not write code from it.
 4. Every reference to a class, table, config key or value is checked against the code while writing. On doubt write `verify: assumption`, never a guess.
 5. Decisions are never downgraded, upgraded or merged by inference. Chain of evidence in chat → ratification → then written.
-6. Implementation reports are appended to the spec they belong to, newest at the bottom: done, not done with reason, deviations to ratify, test numbers, proposed commit message.
+6. Implementation reports are appended to the spec they belong to, newest at the bottom: done, not done with reason, deviations to ratify, test numbers, requirements to tests map, proposed commit message.
 7. Living documents (calendar, roadmap, backlog, logs) carry `last_verified:`; update it only after checking against implementation-book.md and git log.
 8. Create a document → add its line to docs/INDEX.md in the same turn.
 9. TEMPLATE-owned documents are not edited in a project. A project deviation is recorded in PROJECT-MANIFESTO.md.

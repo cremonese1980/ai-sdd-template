@@ -65,5 +65,6 @@ Decided now, before any data is read. New numbers are ESTIMATE until ratified.
 - Not done, with reason:
 - Deviations to ratify:
 - Tests: <counts from the full test command in PROJECT-MANIFESTO Rites>
+- Requirements to tests: <every requirement id with the tests that prove it; a requirement without a test is not done>
 - Proposed commit message: <one line, ASCII, no quotes, parentheses or metacharacters>
 -->

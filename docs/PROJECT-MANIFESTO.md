@@ -10,7 +10,7 @@
 
 # PROJECT MANIFESTO — <project name>
 
-Specific to this project. It sits on top of ENGINEERING-MANIFESTO.md: it can add and tighten rules; it relaxes one only in "Deviations from template". Keep it under two pages. Rewrite it when the project changes direction; never let it go stale.
+Specific to this project. It sits on top of ENGINEERING-MANIFESTO.md: it can add and tighten rules; it relaxes one only in "Deviations from template". Decisions live here; their why and their discarded alternatives live in BRAINSTORM-LOG.md. Product sections beyond the first hold only what the Human said until their own parliament. Rewrite it when the project changes direction; never let it go stale.
 
 ## 1. Purpose
 One sentence: what this project does, for whom.
@@ -20,18 +20,21 @@ Who has it today, how they solve it now, what it costs them. Name a real person 
 
 ## 3. Success
 Pre-registered: the numbers that will say this project works, with thresholds and the date by which they are read.
+Latency budget per turn for every agent: a p95, split across model, tools and IO (ENGINEERING-MANIFESTO 9.1).
 
 ## 4. Non-goals
 What this project deliberately does not do, even if asked. At least three lines.
 
 ## 5. Scope of the current version
 In: … Out: … The boundary is a decision, not a wish list.
+Tool registry: the effect classes in use (informational, reversible, irreversible) and which classes are promoted to act without approval, each with the read that promoted it (ENGINEERING-MANIFESTO 10.1).
 
 ## 6. Project principles
 Rules that hold here in addition to the engineering manifesto (e.g. "the model never sees a document in clear", "every outbound message is reversible by a human within N minutes").
 
 ## 7. Constraints
 Legal and regulatory (GDPR basis, consent, retention), channels and their provider rules, budget per month, hardware, languages of the users.
+Tenant: what a tenant is for this product (ENGINEERING-MANIFESTO 4.6).
 
 ## 8. Language policy
 Default English. Files allowed in another language, named one by one.

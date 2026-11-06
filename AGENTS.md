@@ -35,4 +35,4 @@ Project-specific names for these roles are in docs/INDEX.md ("Cast").
 
 ## Rites
 - Build: the build, then the integration tests with real dependencies, with the commands in docs/PROJECT-MANIFESTO.md → Rites. Green before any report.
-- Report: appended to the spec — done, not done with reason, deviations, test counts, proposed commit message.
+- Report: appended to the spec — done, not done with reason, deviations, test counts, requirements to tests map, proposed commit message.
